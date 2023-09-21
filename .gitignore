@@ -1,0 +1,9 @@
+#Pkgs
+node_modules
+/node_modules
+
+.env
+/.env
+
+#Frontend
+frontend/coverage

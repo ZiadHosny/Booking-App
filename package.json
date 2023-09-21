@@ -1,0 +1,24 @@
+{
+  "name": "booking-app",
+  "version": "1.0.0",
+  "description": "MERN Booking App",
+  "main": "index.js",
+  "scripts": {
+    "server": "npm run dev --prefix backend",
+    "client": "npm start --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZiadHosny/Booking-App.git"
+  },
+  "author": "Ziad Hosny",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZiadHosny/Booking-App/issues"
+  },
+  "homepage": "https://github.com/ZiadHosny/Booking-App#readme",
+  "devDependencies": {
+    "concurrently": "^7.6.0"
+  }
+}
